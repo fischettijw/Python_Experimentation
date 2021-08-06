@@ -60,7 +60,8 @@ Instruction(opname='RETURN_VALUE', opcode=83, arg=None, argval=None, argrepr='',
 def print_dis():
     def print_line(ins):
         print(ins)
-        print(f'{ins[6]}\t\t{ins[5]} {ins[1]}\t\t\t{ins[2]}')
+        print(type(ins[6]))
+        print(f'{ins[6]:03}\t\t{ins[5]} {ins[1]}\t\t\t{ins[2]}')
         # print(f'{inst[5]}')
         print()
 
