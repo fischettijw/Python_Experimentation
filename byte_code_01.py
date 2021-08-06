@@ -1,5 +1,6 @@
 import dis
 import os
+
 os.system('cls')
 
 y = 1
@@ -14,3 +15,4 @@ def example():
 
 
 dis.dis(example)
+print()
