@@ -16,7 +16,7 @@ cls()
 dis.dis(myfunc)
 input(f"\n {'='*50}\n")
 
-os.system('cls')
+cls()
 for inst in dis.get_instructions(myfunc):
     print(inst)
 input(f"\n {'='*50}\n")
