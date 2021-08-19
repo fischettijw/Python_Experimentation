@@ -8,6 +8,10 @@
 # region Links
 # https://www.youtube.com/watch?v=PJ16cdc0YKM
 # https://docs.python.org/3/library/dis.html
+# https://python.plainenglish.io/building-a-stack-based-virtual-machine-using-python-fcd5f2203fd5
+# http://vega.lpl.arizona.edu/python/lib/bytecodes.html   Python Byte Code Instructions
+# https://github.com/umangshrestha/stackmachine/blob/main/src/interpretor.py
+# https://www.youtube.com/watch?v=mE0oR9NQefw
 # endregion Links
 
 # region Imports
