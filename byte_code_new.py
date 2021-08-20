@@ -29,6 +29,10 @@ print()
 print(list(absolute_func.__code__.co_code))
 print()
 
+for code in dis.get_instructions(absolute_func):
+    print(code)
+print()
+
 
 # https://www.youtube.com/watch?v=mE0oR9NQefw
 # https://docs.python.org/3/library/inspect.html
